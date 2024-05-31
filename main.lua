@@ -1,0 +1,1 @@
+CurrentIdentity=0;game:service('LogService').MessageOut:Connect(function(txt)if string.sub(txt,1,20)=="Current identity is "then CurrentIdentity=tostring(string.sub(txt,21,21))end;end)printidentity()wait()
